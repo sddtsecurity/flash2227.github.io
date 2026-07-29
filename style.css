@@ -1,3 +1,51 @@
+/* ==========================
+   SDDT SECURITY
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
 body{
-    background:red;
+    font-family:'Poppins',sans-serif;
+    background:#07182f;
+    color:#ffffff;
+    line-height:1.7;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#041020;
+    border-bottom:2px solid #0B5CFF;
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+    color:#FFD700;
+}
+
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    margin-left:30px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#FFD700;
 }
